@@ -1,9 +1,10 @@
-
-
 .btn-primary {
     color: #fff;
     background-color: #007b5e;
     border-color: #007b5e;
+}
+.sach{
+    color: #215ca0;
 }
 
 section {
@@ -15,6 +16,15 @@ section .section-title {
     color: #007b5e;
     margin-bottom: 50px;
     text-transform: uppercase;
+}
+.h3{
+    color: #032e61;
+}
+.hd{
+    font-size: 27px !important;
+    line-height: 36px !important;
+    font-weight: normal;
+    color: #222;
 }
 
 #team .card {
@@ -33,7 +43,7 @@ section .section-title {
     text-decoration: none;
     text-align: center;
     padding: 14px 16px;
-    color: #3e5ca0;
+    color: #215ca0;
     
 }
 nav{

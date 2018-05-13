@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.css">
     <link rel="stylesheet" href="assets/css/libs_framework.min.css">
     <link rel="stylesheet" href="assets/css/libs_base.min.css">
@@ -19,51 +20,57 @@
 </head>
 
 <body>
+    <div class="container">
     <div class="subsect theader">
         <img src="assets/img/logo-salesforce.png" alt="logo">
         <div class="top">
-            <div class="input" <input type="text" placeholder="Search">
-            </div>
+            <div class="form-inline">
+                    <div class="icon-sfdc-icon-magnifying-glass"></div>
+                <input type="text" placeholder="   Search" class="form-control my-2 my-sm-0">
             <a href="#">0080 7253 3333(FREEPHONE)</a>
             <a href="#">CONTACT US</a>
             <span>
-                <i class="fa fa-address-book"></i>
+                <i class="glyphicon glyphicon-user"></i>
                 <a href="#">LOGIN</a>
             </span>
+            </div>
         </div>
         <hr>
-        <div class="navTop">
-
-            <ul>
+        <nav class="navbar navbar-expand-lg navbar-light navTop">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
                 <span id="navTleft">
-                    <li>
+                    <li class="nav-item dropdown">
                         <a href="#">PRODUCTS</a>
                     </li>
-                    <li>
+                    <li class="nav-item dropdown">
                         <a href="#">SOLUTIONS</a>
                     </li>
-                    <li>
+                    <li class="nav-item dropdown">
                         <a href="#">SERVICES</a>
                     </li>
-                    <li>
+                    <li class="nav-item dropdown">
                         <a href="#">COMMUNITY</a>
                     </li>
-                </span>
-                <span id="navTright">
-                    <li>
+                    <li class="nav-item dropdown">
                         <a href="#">CUSTOMERS</a>
                     </li>
-                    <li>
+                    <li class="nav-item dropdown">
                         <a href="#">EVENTS</a>
                     </li>
-                    <li>
+                    <li class="nav-item dropdown">
                         <a href="#">ABOUT US</a>
                     </li>
                 </span>
             </ul>
-            <button class="btn btn-success">FREE TRIAL</button>
-        </div>
+            <button class="btn btn-success">FREE TRIAL</button></div>
+        </nav>
 
+                </span>
+                <span id="navTright">
     </div>
     <div class="sect main">
         <div class="sidebar inner">
@@ -87,7 +94,7 @@
             </h2>
             <h2>
                 <span class="salesforce-icon cloud-icon-service"></span>
-                <span>Services </small>
+                <span>Services </span>
             </h2>
             <h2>
                 <span class="salesforce-icon cloud-icon-marketing"></span>
@@ -98,13 +105,13 @@
                 <span>Apps </span>
             </h2>
             <br>
-            <p class="text-primary">SEE ALL PRODUCTS ></p>
+            <p class="h4 text-left">SEE ALL PRODUCTS ></p>
 
 
 
         </div>
         <div class="sect txthead">
-            <span>Sell, service, and market smarter with the world’s #1 CRM platform.</span>
+            <h1 class="hd">Sell, service, and market smarter with the world’s #1 CRM platform.</h1>
             <button class="bt btn-primary">WATCH DEMOS</button>
             <button class="bt btn-primary">FREE TRIAL</button>
         </div>
@@ -186,27 +193,27 @@
 
     <div class="container">
         <div class="row">
-            <div class=" col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-12 col-sm-6 col-md-4">
 
                 <div class="card">
                     <div class="card-body text-center">
                         <img src="assets/img/cloud.PNG">
                         <h2>Sales Cloud</h2>
                         <p>Sell smarter and faster with the world’s #1 CRM solution.</p>
-                        <a href="#" class="button">WATCH DEMO</a>
+                        <a href="#" class="btn btn-primary">WATCH DEMO</a>
                         <br>
                         <br>
                         <a href="#" class="button2">LEARN MORE</a>
                     </div>
                 </div>
             </div>
-            <div class=" col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="card">
                     <div class="card-body text-center">
                         <img src="assets/img/cloud1.PNG">
                         <h2>Services Cloud</h2>
                         <p>Support every customer. Anytime. Anywhere.</p>
-                        <a href="#" class="button">WATCH DEMO</a>
+                        <a href="#" class="btn btn-primary">WATCH DEMO</a>
                         <br>
                         <br>
                         <a href="#" class="button2">LEARN MORE</a>
@@ -219,7 +226,7 @@
                         <img src="assets/img/cloud2.PNG">
                         <h2>Quip</h2>
                         <p>Simple Button, Simple Button, Simple Button, Simple Button</p>
-                        <a href="#" class="button">WATCH DEMO</a>
+                        <a href="#" class="btn btn-primary">WATCH DEMO</a>
                         <br>
                         <br>
                         <a href="#" class="button2">LEARN MORE</a>
@@ -229,39 +236,39 @@
         </div>
 
         <div class="row">
-            <div class=" col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="card">
                     <div class="card-body text-center">
                         <img src="assets/img/cloud3.PNG">
                         <h2>Quip</h2>
                         <p>Simple Button, Simple Button, Simple Button, Simple Button</p>
-                        <a href="#" class="button">WATCH DEMO</a>
+                        <a href="#" class="btn btn-primary">WATCH DEMO</a>
                         <br>
                         <br>
                         <a href="#" class="button2">LEARN MORE</a>
                     </div>
                 </div>
             </div>
-            <div class=" col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="card">
                     <div class="card-body text-center">
                         <img src="assets/img/cloud4.PNG">
                         <h2>Quip</h2>
                         <p>Simple Button, Simple Button, Simple Button, Simple Button</p>
-                        <a href="#" class="button">WATCH DEMO</a>
+                        <a href="#" class="btn btn-primary">WATCH DEMO</a>
                         <br>
                         <br>
                         <a href="#" class="button2">LEARN MORE</a>
                     </div>
                 </div>
             </div>
-            <div class=" col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="card">
                     <div class="card-body text-center">
                         <img src="assets/img/cloud5.PNG">
                         <h2>Quip</h2>
                         <p>Simple Button, Simple Button, Simple Button, Simple Button</p>
-                        <a href="#" class="button">WATCH DEMO</a>
+                        <a href="#" class="btn btn-primary">WATCH DEMO</a>
                         <br>
                         <br>
                         <a href="#" class="button2">LEARN MORE</a>
@@ -357,12 +364,27 @@
         </div>
 
         <div class="col-md-3 col-sm-3 col-lg-3">
-            <h4>New to Salesforce?</h4>
-            <a href="#">What is Salesforce?</a>
-            <a href="#">What is CRM?</a>
-            <a href="#">What is Cloud Computing?</a>
-            <a href="#">What is Salesforce?</a>
-            <a href="#">What is Salesforce?</a>
+            <ul>
+                    <li>
+                        <h4>New to Salesforce?</h4>
+                    </li>
+    
+                    <li>
+                        <a href="#">What is Salesforce?</a>
+                    </li>
+                    <li>
+                        <a href="#">What is CRM?</a>
+                    </li>
+                    <li>
+                        <a href="#">What is Cloud Computing?</a>
+                    </li>
+                    <li>
+                        <a href="#">What is Salesforce?</a>
+                    </li>
+                    <li>
+                        <a href="#">What is Salesforce?</a>
+                    </li>
+                </ul>
         </div>
 
     </div>
@@ -392,7 +414,7 @@
             </p>
         </div>
     </div>
-
+</div>
 </body>
 
 </html>
