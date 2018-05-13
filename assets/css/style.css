@@ -1,0 +1,225 @@
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+.navTop ul{
+    list-style-type: none;
+        
+}
+.navTop li{
+    float: left;
+}
+ li a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    color: #3e5ca0;
+    
+}
+nav{
+    background-color: #fff;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#fff;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+html,body{
+    height: 100%;
+}
+*{
+    margin: 0;
+}
+
+.top{
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    padding: 10px;
+}
+.navTop{
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.btn-success{
+    margin-left: 20%;
+}
+.navTop ul{
+    list-style-type: none;
+        
+}
+.navTop li{
+    float: left;
+}
+ li a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    color: #3e5ca0;
+    
+}
+#navTleft{
+    font-weight: bold;
+}
+.sect{
+    height: 100%;    
+    background-repeat: no-repeat;    
+}
+.main{
+ background-image: url(../img/home_bg.png);
+}
+
+.sidebar{
+    background:rgba(248,248,248,.8);
+    height: 80.3%;
+    width: 220px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.inner{
+    padding: 10px;
+}
+.inner i{
+    margin-right: 5px;
+}
+.bheader{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    bottom: -75px;
+    background: #c1b9b4;
+    text-align: center;
+    font-weight: bold;
+    line-height:5px;
+   }
+.bheader a:hover {
+    text-decoration: none;
+}
+
+/* brands*/
+div.logos{
+	background-color: #e9e8e6;
+	width: 100%;
+	height: 250px;
+}
+
+div #p1{
+	color: #032e61;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-left: 29px;
+}
+div .subheader{
+	color: black;
+	font-size: 18px;
+	margin-left: 29px;
+    
+
+	margin-top: -11px;
+	display: inline-block;
+}
+
+div .subheader2{
+color: black;
+	font-size: 18px;
+	margin-left: 30px;
+	margin-bottom: -50px;
+	margin-top: -1000px;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+
+.maingrid{
+	background-color: #E4E8E0;
+	font-family: helvetica,arial,serif;
+   
+}
+.grid1{
+			background-color: white;
+			border: 1px solid white;
+			margin-right: 10px;
+			width: 360px;
+			height:auto;
+			float: left;
+			text-align: center;
+			margin: 0px 20px 0px 40px;
+			padding: 10px 10px 10px 10px;
+		}
+
+.grid1 a.button{
+	border: 1px solid #236DA6;
+	background-color: #236DA6;
+	color: white;
+	font: 16px arial; 
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
+}
+.grid1 a.button:hover{
+	background-color: #1B5682;
+}
+.grid1 a.button2{
+    color:#236DA6;
+    font: 16px calibri; 
+    text-decoration: none;
+}
+.grid1 a.button2:hover{
+	color: #1B5682;
+}
+h2{
+	color: #103252;
+}
+p{
+	color: black;
+}
+    .footer{
+    background-color: #081e29;
+        color: white;
+        margin-left: 10px;
+        margin-top: 5px;
+}
+      ul {
+          list-style-type: none;
+      }
+      .footer ul li{
+          float: left;
+          
+          padding: 5px;
+          
+      }
+      .salesforce-icon{
+          font-size: 30px;
+          margin-right: 0px;
+      }
